@@ -1,0 +1,90 @@
+body {
+    margin: 0;    
+}
+#emoji {
+    height: 40px;
+    width: 40px;
+}
+
+#first {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 5px;
+    padding-left: 300px;
+    padding-right: 300px;
+    height: 550px;
+}
+
+#gumb {
+    margin-top: 30px;
+}
+#naslov {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+#links {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+#udomi-psa {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#opis  {
+    font-size: 18px;
+    color: #e5e7eb;
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+
+#header-text {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    height: 40px;
+    font-size: 20px;
+    width: 150px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+li {
+    list-style-type: none;
+}
+
+#pas {
+    height: 200px;
+    width: 400px;
+    display: flex;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+ul {
+    display: flex;
+    gap: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+#logo {
+    height: 70px;
+    width: 70px;
+}
