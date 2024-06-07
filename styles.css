@@ -12,11 +12,13 @@ body {
     padding: 5px;
     padding-left: 300px;
     padding-right: 300px;
-    height: 550px;
+    height: 600px;
 }
 
 #gumb {
     margin-top: 30px;
+    color: aliceblue;
+    text-decoration: none;
 }
 #naslov {
     font-size: 48px;
@@ -59,7 +61,7 @@ button {
 }
 
 li {
-    list-style-type: none;
+    margin-left: 20px;
 }
 
 #pas {
@@ -79,7 +81,7 @@ ul {
     gap: 18px;
 }
 
-a {
+#psi {
     text-decoration: none;
     color: #F9FAF8;
 }
@@ -87,4 +89,56 @@ a {
 #logo {
     height: 70px;
     width: 70px;
+}
+
+#saznajte-vise {
+    color: #F9FAF8;
+    font-size: 30px;
+}
+
+
+
+
+#slike-pasa {
+    height: 190px;
+    width: auto;
+}
+
+#drugi {
+    background-color: #F9FAF8;
+    color: #1F2937;
+    padding: 5px;
+    padding-left: 300px;
+    padding-right: 300px;
+    height: 550px;
+    padding-top: 30px;
+}
+
+#drugi-naslov {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding-bottom: 30px;
+}
+
+#sve-slike {
+    display: flex;
+    justify-content: center;
+    gap: 112px;
+
+}
+
+#slike-pasa {
+    border-radius: 10px;
+}
+
+#info {
+    max-width: 20px;
+}
+
+#text {
+    color: #1F2937;
+    font-size: 20px;
+    line-height: 30px;
 }
